@@ -46,7 +46,7 @@ Whitespace control is add for all snippets. And can be removed when needed by de
 ### Marketplace-kit
 ```javascript
 Install/Update
-Test (show version)
+Test \(show version)
 Initialize
 Add environment
 List environments
@@ -183,6 +183,80 @@ upcase
 url_encode
 url_escape
 url_param_escape
+```
+## platformOS filters
+```javascript
+add_hash_key \(aliases\: assign_to_hash_key\)
+add_to_array
+add_to_date
+advanced_format
+any
+asset_url
+base64_decode
+base64_encode
+compact
+compute_hmac
+detect
+dig
+escape_javascript
+expand_url_template
+extract_url_params
+fetch
+flatten
+format_number
+group_by
+html_safe
+humanize
+in_groups_of
+intersection
+is_date_before \(aliases\: date_before\)
+is_date_in_past
+is_included_in_array
+is_token_valid
+json \(aliases\: to_json\)
+jwt_decode
+jwt_encode
+limit
+localize \(aliases\: l\)
+map
+map_attributes
+markdown \(aliases\: markdownify\)
+matches
+new_line_to_br \(aliases\: nl2br\)
+pad_left
+parameterize
+parse_json \(aliases\: to_hash\)
+pluralize
+pricify
+pricify_cents
+querify
+random_string
+raw_escape_string
+regex_matches
+reject
+remove_hash_key \(aliases\: delete_hash_key\)
+rotate
+sanitize
+select
+sha1
+shuffle_array
+slugify
+strftime
+subtract_array
+sum_array
+time_diff
+titleize
+to_date
+to_mobile_number
+to_positive_integer
+to_time
+translate \(aliases\: t\)
+url_for_path_with_token
+useragent
+uuid
+verify_access_key
+video_params
+videoify
 ```
 
 ## GraphQL ( gql )
