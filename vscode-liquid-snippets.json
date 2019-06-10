@@ -18,12 +18,12 @@
 		"prefix": "?:marketplace-kit:4:Enviroment",
 		"body": "marketplace-kit env add ${1:[environment] eg Staging,Production} --email ${2:[your email]} --url ${3:[https://yourMarketplaceURL.com]}",
 		"description": "To add your environment to a config file, run the env add command, and authenticate with your Partner Portal credentials"
-  },
-  "terminal marketplace-kit env list": {
-    "prefix": "?:marketplace-kit:5:EnvironmentsList",
-    "body": "marketplace-kit env list",
-    "description": "Lists all added environments."
-  },
+	},
+	"terminal marketplace-kit env list": {
+		"prefix": "?:marketplace-kit:5:EnvironmentsList",
+		"body": "marketplace-kit env list",
+		"description": "Lists all added environments."
+	},
 	"terminal marketplace-kit deploy": {
 		"prefix": "?:marketplace-kit:6:deploy",
 		"body": "marketplace-kit deploy ${0:[environment] eg Staging,Production}",
